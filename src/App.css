@@ -1,3 +1,18 @@
+.side-bar-icons {
+  max-height: 2.5em;
+  display: inline;
+  padding-top: 10%
+}
+
+.side-bar-logo {
+  margin-bottom: 3em;
+  max-height: 5em;  
+}
+
+.side-bar-group {
+  margin-bottom: 1em;
+}
+
 .App {
   text-align: center;
 }

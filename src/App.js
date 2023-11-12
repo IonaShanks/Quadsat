@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import SidePanel from './components/sidePanel';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       Hello world!
     </h1>
       </header>
+      <SidePanel />
     </div>
   );
 }
