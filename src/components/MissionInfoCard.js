@@ -2,14 +2,13 @@ import missionsIcon from '../images/Web icon export/Icons/Group 288.png'
 import reportsIcon from '../images/Web icon export/Icons/Group 287.png'
 import mission from '../datasets/mission_and_scans.json'
 
-const InfoCard = () => {
+const MissionInfoCard = () => {
     return (
 
         <div class="max-w-xs rounded overflow-hidden shadow-lg">
             <div class="grid grid-cols-1 divide-y">
 
                 <div class="px-6 py-4">
-                    <p></p>
                     <div class="font-bold text-xl mb-2 text-center">Mission <br /> {mission.title}</div>
                     <table class="table-auto w-full border text-xs">
                         <tbody>
@@ -62,4 +61,4 @@ const InfoCard = () => {
     )
 }
 
-export default InfoCard;
+export default MissionInfoCard;
