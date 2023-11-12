@@ -1,5 +1,6 @@
 import missionsIcon from '../images/Web icon export/Icons/Group 288.png'
 import reportsIcon from '../images/Web icon export/Icons/Group 287.png'
+import mission from '../datasets/mission_and_scans.json'
 
 const InfoCard = () => {
     return (
@@ -8,35 +9,34 @@ const InfoCard = () => {
             <div class="grid grid-cols-1 divide-y">
 
                 <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-center">Mission <br /> Mallorca, Spain</div>
+                    <p></p>
+                    <div class="font-bold text-xl mb-2 text-center">Mission <br /> {mission.title}</div>
                     <table class="table-auto w-full border text-xs">
                         <tbody>
                             <tr>
-                                <td>Agent</td> <td>Poe</td>
+                                <td>Agent</td> <td>{mission.agent}</td>
                             </tr>
                             <tr>
-                                <td>Antenna</td> <td>Kingsat</td>
+                                <td>Antenna</td> <td>{mission.antenna.manufacturer}</td>
                             </tr>
                             <tr>
-                                <td>Antenna Diameter</td> <td>0.85</td>
+                                <td>Antenna Diameter</td> <td>{mission.antenna.effectiveDiameter}</td>
                             </tr>
                             <tr>
-                                <td>Frequency</td> <td>12600 MHz</td>
+                                <td>Frequency</td> <td>{mission.antennaConfiguration.frequency} MHz</td>
                             </tr>
                             <tr>
-                                <td>Altitude</td> <td>15.93 meters</td>
+                                <td>Altitude</td> <td>{mission.antennaConfiguration.altitude} meters</td>
                             </tr>
                             <tr>
-                                <td>Azimuth</td> <td>176.75</td>
+                                <td>Azimuth</td> <td>{mission.antennaConfiguration.azimuth}</td>
                             </tr>
                             <tr>
-                                <td>Elevation</td> <td>26.76</td>
+                                <td>Elevation</td> <td>{mission.antennaConfiguration.elevation}</td>
                             </tr>
                             <tr>
                                 <td>File Size</td> <td>2.54GB</td>
-
                             </tr>
-
                         </tbody>
                     </table>
                 </div>
