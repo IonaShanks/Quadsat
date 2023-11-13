@@ -36,6 +36,7 @@ const MissionTable = () => {
                     </tr>
                 </tbody>
             </table>
+            
         </div>
     )
 }

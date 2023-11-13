@@ -9,7 +9,7 @@ const MissionInfoCard = () => {
             <div class="grid grid-cols-1 divide-y">
 
                 <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-center">Mission <br /> {mission.title}</div>
+                    <div class="font-bold text-sm mb-2 text-center">Mission <br /> {mission.title}</div>
                     <table class="table-auto w-full border text-xs">
                         <tbody>
                             <tr>
@@ -42,7 +42,7 @@ const MissionInfoCard = () => {
 
 
                 <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Scope</div>
+                    <div class="font-bold text-sm mb-2">Scope</div>
                     <p class="text-gray-700 text-xs">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
@@ -56,6 +56,7 @@ const MissionInfoCard = () => {
                     <img src={reportsIcon} className="icons inline" alt="logo" />
                     <h1 class="text-quadsat-blue text-[12px]">Reports</h1>
                 </div>
+                
             </div>
         </div>
     )
