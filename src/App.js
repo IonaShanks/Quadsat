@@ -14,7 +14,7 @@ function App() {
       <SidePanel />
       <div className="App">
 
-        <div className="flex flex-row">
+        <div className="flex flex-row flex-wrap">
           <div>
             <MissionInfoCard />
           </div>
@@ -29,7 +29,7 @@ function App() {
           </div>
         </div>
 
-        <div className="flex flex-row">
+        <div className="flex flex-row flex-wrap">
           <div>
             <MeasurementMenu />
           </div>
