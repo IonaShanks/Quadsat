@@ -1,7 +1,3 @@
-import missionsIcon from '../images/Web icon export/Icons/Group 288.png'
-import reportsIcon from '../images/Web icon export/Icons/Group 287.png'
-import mission from '../datasets/mission_and_scans.json'
-
 const MissionTable = () => {
     return (
         <div class="py-1 px-2 ">
